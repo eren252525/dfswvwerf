@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Çağrı Lift Paneli</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+        .sidebar {
+            background-color: #333;
+            color: white;
+            width: 220px;
+            height: 100vh;
+            padding-top: 20px;
+            position: fixed;
+        }
+        .sidebar h2 {
+            text-align: center;
+        }
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Menü</h2>
+        <a href="bakim.html">Bakımlar</a>
+        <a href="revizyon.html">Revizyonlar</a>
+        <a href="ariza.html">Arızalar</a>
+        <a href="montaj.html">Montajlar</a>
+    </div>
+    <div class="content">
+        <h1>Çağrı Lift Asansör Kullanım Paneli</h1>
+        <p>Soldaki menüden işlemleri seçebilirsiniz.</p>
+    </div>
+</body>
+</html>
